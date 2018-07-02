@@ -1,0 +1,292 @@
+body {
+/*margin: 0 auto;
+width: 980px;*/
+margin: 0;
+font-family: lato,sans-serif;
+overflow-x: hidden;
+color: #3D4351;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.active {
+  border-bottom: 1px solid #f3f3ff;
+}
+
+a {
+  text-decoration: none;
+  letter-spacing: 0.7px;
+}
+
+header {
+  background: linear-gradient(-180deg, #c47290 3%, #feada6 100%);
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.containerMed {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.containerSmall {
+  max-width: 520px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 40px 60px 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+ nav a {
+  margin: 0 0 10px 20px;
+  padding: 15px 1px 5px 1px;
+  font-size: 11px;
+  color: #f3f3ff;
+}
+
+.leftCon {
+  display: flex;
+  flex-direction: row;;
+  align-items: flex-start;
+  max-width: 300px;
+  justify-content: space-between;
+}
+
+.myName {
+  padding: 4px 5px 5px 5px;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 1.7px;
+  border-bottom: 1px solid #feada6;
+}
+
+.title {
+  padding: 8px 5px 50px 5px;
+  font-weight: 300;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+}
+
+.logoTextCon {
+  padding: 16px 0 0 0;
+  text-align: center;
+  color: #ffff;
+}
+
+.shaniImg {
+  padding-left: 15px;
+}
+
+.aboutMeWrap {
+  padding: 0 0 40px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.uxProjectItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*.line {
+  height: 20px;
+  width: 130px;
+  border-bottom: 1px solid #000000;
+}
+*/
+
+.seperator {
+  margin-top: 100px;
+  border-bottom: 1px;
+  border-color: #f3d3;
+}
+
+ .projectIntro {
+  max-width: 700px;
+  padding: 0 0 80px 0;
+  letter-spacing: 0.6px;
+  line-height: 30px;
+  font-size: 17px;
+  font-weight: 300;
+  align-items: center;
+}
+
+.projectItem {
+  padding: 0 0 100px 0;
+}
+
+.projectTitle {
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.projectDesc dt {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.projectDesc dd {
+  font-size: 17px;
+  font-weight: 300;
+  margin: 0;
+  padding: 5px 0 10px 0;
+}
+
+.showMoreBtn {
+  font-size: 11px;
+  color: #0faa9d;
+  border: 1px solid #0faa9d;
+  padding: 5px 10px;
+}
+
+.pageTitle {
+  text-align: center;
+  padding: 90px 0 50px 0;
+  background-color: #ffff;
+  font-size: 21px;
+  font-weight: normal;
+  letter-spacing: 0.7px;
+  margin-bottom: 50px;
+}
+
+.aboutMeWrap p {
+  padding: 0 0 180px 0;
+  letter-spacing: 0.6px;
+  line-height: 30px;
+  font-size: 17px;
+  font-weight: 300;
+}
+
+/*Timeline*/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+.timeline ul li {
+  list-style-type: none;
+  position: relative;
+  width: 3px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  background: #d9d9d9;
+}
+
+.timeline ul li::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 40px;
+  width: 10px;
+  height: 4px;
+  background: #d9d9d9;
+}
+
+.timeline ul li div {
+  position: relative;
+  top: 12px;
+  width: 400px;
+  padding: 15px 15px 15px 0;
+  color: #484848;
+  letter-spacing: 0.4px;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+
+/*arrow/
+
+.timeline ul li div::before {
+  content: '';
+  position: absolute;
+  top: 10px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+*/
+
+.timeline ul li div {
+  left: 45px;
+}
+
+.timeline ul li div::before {
+  left: -15px;
+  border-width: 8px 16px 8px 0;
+  border-color: transparent #eaeaea82 transparent transparent;
+}
+
+.eventTitle {
+  margin: 0 0 5px 0;
+  color: #3D4351;
+  font-size: 16px;
+}
+
+/*.timeline ul li:nth-child(even) div {
+  left: -439px;
+}*/
+
+/*.timeline ul li:nth-child(even) div::before {
+  right: -15px;
+  border-width: 8px 0 8px 16px;
+  border-color: transparent transparent transparent #ffdbde;
+} */
+
+.contact, .email, .phone {
+  display: flex;
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.contact {
+  padding: 30px 0 300px 0;
+}
+
+.contactInfo {
+  padding-left: 100px;
+}
+
+.email, .phone {
+  width: 230px;
+  justify-content: space-between;
+  align-items: baseline;
+
+}
+
+.email {
+  padding-bottom: 20px;
+}
+
+.contact a {
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.contactTitle {
+  padding: 0 50px;
+}
